@@ -6,7 +6,7 @@ int abschreibung(float gw, float w, int y, int i) {
 
 		printf("Restwert nach dem %d. Jahr: %.2f €\n", i, gw - (w * i));
 
-		return abschreibung(gw, w,  y, i + 1);
+		return abschreibung(gw, w, y, i + 1);
 	}
 
 	else {
